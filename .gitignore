@@ -11,3 +11,12 @@ wheels/
 
 # Environment variables - DO NOT SYNC
 .env
+
+# Application results and logs
+results/
+conversation_log_*.json
+
+# Model files (if any are downloaded locally)
+*.gguf
+*.bin
+models/
